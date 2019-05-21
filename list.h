@@ -7,7 +7,7 @@ typedef struct roll {
 } *roll;
 
 void roll_destruct(roll);
-int roll_prepend(void *);
+int roll_prepend(roll *, void *);
 void *roll_fetch(roll *);
 
 #endif
