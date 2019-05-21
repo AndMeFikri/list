@@ -2,6 +2,6 @@
 #include "list.h"
 
 int main(int argc, char *argv[]) {
-  printf("Hello, world!\n");
-  return 0;
- }
+	printf("Hello, world!\n");
+	return 0;
+}
